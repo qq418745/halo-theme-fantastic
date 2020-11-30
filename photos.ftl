@@ -26,13 +26,12 @@
     <@global.head />
 
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bulma@0.7.5/css/bulma.min.css">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="${theme_base!}/source/css/fontawesome/all.css">
     <#include "layout/plugin/style.theme.ftl">
 
 
     <link rel="stylesheet"
           href="//cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
-
     <link rel="stylesheet" href="${theme_base!}/source/css/style.css">
     <link rel="stylesheet" href="${theme_base!}/source/css/bundle.css">
     <link rel="stylesheet" href="${theme_base!}/source/css/back-to-top.css">
